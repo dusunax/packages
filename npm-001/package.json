@@ -1,8 +1,8 @@
 {
   "name": "hello-emoji",
   "private": false,
-  "version": "0.0.1",
-  "description": "🐣 Hello: An npm package for demonstration purposes using TypeScript to build for both the ECMAScript Module format (i.e. ESM or ES Module) and CommonJS Module format. It can be used in Node.js and browser applications.",
+  "version": "0.0.2",
+  "description": "🐣 Hello Emoji 🐣: An npm package for demonstration purposes using TypeScript to build for both the ECMAScript Module format (i.e. ESM or ES Module) and CommonJS Module format. It can be used in Node.js and browser applications.",
   "author": {
     "name": "dusunax",
     "email": "dusunax@gmail.com",

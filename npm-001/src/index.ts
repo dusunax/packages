@@ -1,13 +1,3 @@
-export function heart() {
-  return "❤️";
-}
+import * as emoji from "./lib/emoji";
 
-export function check() {
-  return "✅";
-}
-
-export function fire() {
-  return "🔥";
-}
-
-export default { heart, check, fire };
+export default { ...emoji };

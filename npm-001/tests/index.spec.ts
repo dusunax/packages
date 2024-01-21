@@ -1,8 +1,8 @@
 import "mocha";
 import { assert } from "chai";
 
-import { heart } from "../src/index";
-import npmPackage from "../src/index";
+import npmPackage from "..";
+const { heart, check, fire } = npmPackage;
 
 describe("NPM Package", () => {
   it("should be an object", () => {
@@ -14,7 +14,8 @@ describe("NPM Package", () => {
   });
 });
 
-describe("Heart Function", () => {
+// Emojis
+describe("a heart Function", () => {
   it("should be a function", () => {
     assert.isFunction(heart);
   });
@@ -22,6 +23,30 @@ describe("Heart Function", () => {
   it("should return the heart emoji", () => {
     const expected = "❤️";
     const actual = heart();
+    assert.equal(actual, expected);
+  });
+});
+
+describe("a check Function", () => {
+  it("should be a function", () => {
+    assert.isFunction(check);
+  });
+
+  it("should return the check emoji", () => {
+    const expected = "✅";
+    const actual = check();
+    assert.equal(actual, expected);
+  });
+});
+
+describe("a fire Function", () => {
+  it("should be a function", () => {
+    assert.isFunction(fire);
+  });
+
+  it("should return the fire emoji", () => {
+    const expected = "🔥";
+    const actual = fire();
     assert.equal(actual, expected);
   });
 });
