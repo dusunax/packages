@@ -7,4 +7,4 @@ modern npm package fork from [modern-npm-package](https://github.com/snyk-snippe
 
 | id  | Project | ⚙️  | 📅     |
 | --- | ------- | --- | ------ |
-| 001 | hello-emoji@0.0.3 | 🐣  | 240122 |
+| 001 | [hello-emoji@0.0.3](https://www.npmjs.com/package/hello-emoji) | 🐣  | 240122 |
