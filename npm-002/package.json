@@ -1,13 +1,13 @@
 {
   "name": "hello-ascii",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "[package-002] 🔡 Hello Ascii 🔢",
   "license": "MIT",
   "author": {
     "name": "dusunax",
     "email": "dusunax@gmail.com",
-    "url": "https://github.com/dusunax/packages/"
+    "url": "https://github.com/dusunax/packages/tree/main/npm-002"
   },
   "bin": {
     "hello-ascii": "./lib/cjs/index.js"
