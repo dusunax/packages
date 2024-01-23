@@ -1,7 +1,7 @@
 import "mocha";
 import { assert } from "chai";
 
-import npmPackage from "..";
+import npmPackage from "../src";
 const { heart, check, fire } = npmPackage;
 
 describe("NPM Package", () => {
