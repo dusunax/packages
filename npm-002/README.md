@@ -11,7 +11,7 @@ boilerplate from [modern-npm-package](https://github.com/snyk-snippets/modern-np
 
 ```
 $ npm install hello-ascii
-$ npm hello-ascii --help
+$ npx hello-ascii --help
 $ npx hello-ascii --hello
 $ npx hello-ascii --hello --color
 
