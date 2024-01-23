@@ -3,6 +3,7 @@
   "private": false,
   "version": "0.0.1",
   "description": "[package-002] 🔡 Hello Ascii 🔢",
+  "license": "MIT",
   "author": {
     "name": "dusunax",
     "email": "dusunax@gmail.com",
