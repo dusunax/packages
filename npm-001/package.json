@@ -1,7 +1,7 @@
 {
   "name": "hello-emoji",
   "private": false,
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "[package-001] 🐣 Hello Emoji 🐣",
   "license": "MIT",
   "author": {
