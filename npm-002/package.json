@@ -1,7 +1,7 @@
 {
   "name": "hello-ascii",
   "private": false,
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "[package-002] 🔡 Hello Ascii 🔢",
   "license": "MIT",
   "author": {
@@ -11,6 +11,11 @@
   },
   "bin": {
     "hello-ascii": "./lib/cjs/index.js"
+  },
+  "homepage": "https://github.com/dusunax/packages/tree/main/npm-002",
+  "bugs": {
+    "url": "https://github.com/dusunax/packages/issues",
+    "email": "dusunax@gmail.com"
   },
   "scripts": {
     "clean": "del-cli ./lib",

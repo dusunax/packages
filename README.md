@@ -5,10 +5,10 @@ modern npm package fork from [modern-npm-package](https://github.com/snyk-snippe
 
 ---
 
-| id  | Project | ⚙️  | 📅     |
-| --- | ------- | --- | ------ |
-| 001 | [hello-emoji@0.0.5](https://www.npmjs.com/package/hello-emoji) | 🐣  | 240122 |
-| 002 | [hello-ascii@0.0.2](https://www.npmjs.com/package/hello-ascii) | 🔡  | 240124 |
+| id  | Project                                                        | ⚙️  | 📅     |
+| --- | -------------------------------------------------------------- | --- | ------ |
+| 001 | [hello-emoji@0.0.7](https://www.npmjs.com/package/hello-emoji) | 🐣  | 240122 |
+| 002 | [hello-ascii@0.0.5](https://www.npmjs.com/package/hello-ascii) | 🔡  | 240124 |
 
 ### [Package-001] 🐣 Hello Emoji 🐣
 

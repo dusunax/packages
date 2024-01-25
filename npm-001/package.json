@@ -1,13 +1,18 @@
 {
   "name": "hello-emoji",
   "private": false,
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "[package-001] 🐣 Hello Emoji 🐣",
   "license": "MIT",
   "author": {
     "name": "dusunax",
     "email": "dusunax@gmail.com",
     "url": "https://github.com/dusunax/packages/tree/main/npm-001"
+  },
+  "homepage": "https://github.com/dusunax/packages/tree/main/npm-001",
+  "bugs": {
+    "url": "https://github.com/dusunax/packages/issues",
+    "email": "dusunax@gmail.com"
   },
   "scripts": {
     "clean": "del-cli ./lib",
