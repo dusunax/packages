@@ -10,7 +10,7 @@ modern npm package fork from [modern-npm-package](https://github.com/snyk-snippe
 | 001 | [hello-emoji@0.0.7](https://www.npmjs.com/package/hello-emoji) | 🐣  | 240122 |
 | 002 | [hello-ascii@0.0.5](https://www.npmjs.com/package/hello-ascii) | 🔡  | 240124 |
 
-### [Package-001] 🐣 Hello Emoji 🐣
+### [package-001] 🐣 Hello Emoji 🐣
 
 ```tsx
 import helloEmoji from "hello-emoji";
