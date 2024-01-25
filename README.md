@@ -2,10 +2,10 @@
 
 ---
 
-| id  | Project                                                        | ⚙️  | 📅     |
-| --- | -------------------------------------------------------------- | --- | ------ |
-| 001 | [hello-emoji@0.0.7](https://www.npmjs.com/package/hello-emoji) | 🐣  | 240122 |
-| 002 | [hello-ascii@0.0.5](https://www.npmjs.com/package/hello-ascii) | 🔡  | 240124 |
+| id  | Project                                                  |   Version    | ⚙️  | 📅     |
+| --- | --------------------------------------------------------| ------ | --- | ------ |
+| 001 | [hello-emoji](https://www.npmjs.com/package/hello-emoji)|  [![npm version](https://img.shields.io/npm/v/hello-emoji.svg?style=square)](https://www.npmjs.org/package/hello-emoji) | 🐣  | 240122 |
+| 002 | [hello-ascii](https://www.npmjs.com/package/hello-ascii)|  [![npm version](https://img.shields.io/npm/v/hello-emoji.svg?style=square)](https://www.npmjs.org/package/hello-ascii) | 🔡  | 240124 |
 
 ### [package-001] 🐣 Hello Emoji 🐣
 
