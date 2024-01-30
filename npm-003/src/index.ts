@@ -1,3 +1,3 @@
 import { getName, getAllNames } from "./random/name";
 
-export const helloName = { getName, getAllNames };
+export const helloRandomName = { getName, getAllNames };

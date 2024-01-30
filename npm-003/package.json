@@ -1,5 +1,5 @@
 {
-  "name": "hello-name",
+  "name": "hello-random-name",
   "private": false,
   "version": "0.0.1",
   "description": "[package-003] Hello Random Name",
@@ -23,7 +23,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "semantic-release": "semantic-release",
-    "publish": "npm publish && git clean -df",
+    "publish": "npm publish --access=public && git clean -df",
     "prepack": "npm run build"
   },
   "devDependencies": {
