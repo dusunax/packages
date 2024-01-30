@@ -1,5 +1,4 @@
-/npm-000*
-.DS_Store
+/coverage
 
 # Logs
 logs

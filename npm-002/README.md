@@ -1,6 +1,7 @@
 # hello-ascii
 
-![GitHub](https://img.shields.io/github/license/clarkio/simple-npm-package) [![npm version](https://img.shields.io/npm/v/hello-ascii.svg?style=square)](https://www.npmjs.org/package/hello-ascii)
+![GitHub](https://img.shields.io/github/license/dusunax/packages)
+[![npm version](https://img.shields.io/npm/v/hello-ascii.svg?style=square)](https://www.npmjs.org/package/hello-ascii)
 [![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=hello-ascii&query=$.install.pretty&label=install%20size&style=square)](https://packagephobia.now.sh/result?p=hello-ascii)
 [![npm downloads](https://img.shields.io/npm/dm/hello-ascii.svg?style=square)](https://npm-stat.com/charts.html?package=hello-ascii)
 
