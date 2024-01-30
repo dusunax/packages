@@ -2,10 +2,10 @@
 
 ---
 
-| id  | Project                                                  |   Version    | ⚙️  | 📅     |
-| --- | --------------------------------------------------------| ------ | --- | ------ |
-| 001 | [hello-emoji](https://www.npmjs.com/package/hello-emoji)|  [![npm version](https://img.shields.io/npm/v/hello-emoji.svg?style=square)](https://www.npmjs.org/package/hello-emoji) | 🐣  | 240122 |
-| 002 | [hello-ascii](https://www.npmjs.com/package/hello-ascii)|  [![npm version](https://img.shields.io/npm/v/hello-emoji.svg?style=square)](https://www.npmjs.org/package/hello-ascii) | 🔡  | 240124 |
+| id  | Project                                                  | Version                                                                                                                | ⚙️  | 📅     |
+| --- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | --- | ------ |
+| 001 | [hello-emoji](https://www.npmjs.com/package/hello-emoji) | [![npm version](https://img.shields.io/npm/v/hello-emoji.svg?style=square)](https://www.npmjs.org/package/hello-emoji) | 🐣  | 240122 |
+| 002 | [hello-ascii](https://www.npmjs.com/package/hello-ascii) | [![npm version](https://img.shields.io/npm/v/hello-emoji.svg?style=square)](https://www.npmjs.org/package/hello-ascii) | 🔡  | 240124 |
 
 ### [package-001] 🐣 Hello Emoji 🐣
 
@@ -20,3 +20,19 @@ const fire = helloEmoji.fire(); // 🔥
 ### [package-002] 🔡 Hello Ascii 🔢
 
 ![image](https://github.com/dusunax/packages/assets/94776135/b4d7a364-bc63-436f-8019-fe9ff050ac8e)
+
+### [package-003] 💃 Hello Random Name 🕺
+
+```tsx
+import helloRandomName from "hello-random-name";
+
+const randomName = helloRandomName.getName();
+/*{
+ *  gender: 'male',
+ *  name: { english: 'Hyunseok', japanese: 'ヒョンソク', korean: '현석' }
+ *}
+ */
+const randomFemale = helloRandomName.getName("female");
+const randomMale = helloRandomName.getName("male");
+const allNameList = helloRandomName.getAllNames();
+```
