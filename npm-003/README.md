@@ -1,7 +1,7 @@
-# hello-
+# hello-random-name
 
 ![GitHub](https://img.shields.io/github/license/dusunax/packages)
-![GitHub](https://img.shields.io/github/license/hello-random-name/.github) [![npm version](https://img.shields.io/npm/v/hello-random-name.svg?style=square)](https://www.npmjs.org/package/hello-random-name)
+![npm version](https://img.shields.io/npm/v/hello-random-name.svg?style=square)
 [![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=hello-random-name&query=$.install.pretty&label=install%20size&style=square)](https://packagephobia.now.sh/result?p=hello-random-name)
 [![npm downloads](https://img.shields.io/npm/dm/hello-random-name.svg?style=square)](https://npm-stat.com/charts.html?package=hello-random-name)
 
