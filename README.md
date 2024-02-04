@@ -2,11 +2,12 @@
 
 ---
 
-| id  | Project                                                  | Version                                                                                                                | ⚙️  | 📅     |
-| --- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | --- | ------ |
-| 001 | [hello-emoji](https://www.npmjs.com/package/hello-emoji) | [![npm version](https://img.shields.io/npm/v/hello-emoji.svg?style=square)](https://www.npmjs.org/package/hello-emoji) | 🐣  | 240122 |
-| 002 | [hello-ascii](https://www.npmjs.com/package/hello-ascii) | [![npm version](https://img.shields.io/npm/v/hello-ascii.svg?style=square)](https://www.npmjs.org/package/hello-ascii) | 🔡  | 240124 |
-| 003 | [hello-random-name](https://www.npmjs.com/package/hello-random-name) | [![npm version](https://img.shields.io/npm/v/hello-random-name.svg?style=square)](https://www.npmjs.org/package/hello-random-name) | 💃 | 240130 |
+| id  | Project                                                              | Version                                                                                                                            | ⚙️  | 📅     |
+| --- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --- | ------ |
+| 001 | [hello-emoji](https://www.npmjs.com/package/hello-emoji)             | [![npm version](https://img.shields.io/npm/v/hello-emoji.svg?style=square)](https://www.npmjs.org/package/hello-emoji)             | 🐣  | 240122 |
+| 002 | [hello-ascii](https://www.npmjs.com/package/hello-ascii)             | [![npm version](https://img.shields.io/npm/v/hello-ascii.svg?style=square)](https://www.npmjs.org/package/hello-ascii)             | 🔡  | 240124 |
+| 003 | [hello-random-name](https://www.npmjs.com/package/hello-random-name) | [![npm version](https://img.shields.io/npm/v/hello-random-name.svg?style=square)](https://www.npmjs.org/package/hello-random-name) | 💃  | 240130 |
+| 004 | [hello-help](https://www.npmjs.com/package/hello-help)               | [![npm version](https://img.shields.io/npm/v/hello-help.svg?style=square)](https://www.npmjs.org/package/hello-help)               | 🦄  | 240204 |
 
 ### [package-001] 🐣 Hello Emoji 🐣
 
@@ -36,4 +37,28 @@ const randomName = helloRandomName.getName();
 const randomFemale = helloRandomName.getName("female");
 const randomMale = helloRandomName.getName("male");
 const allNameList = helloRandomName.getAllNames();
+```
+
+### [package-004] 🦄 Hello Help ✨
+
+```tsx
+import { HelloHelp, helloHelpCli } from "hello-help";
+
+const helloHelp = new HelloHelp(
+  "🦄 hello-help ✨",
+  "print your --help option easy",
+  {
+    hello: {
+      optionName: "hello",
+      description: "nice to say hello to you 👋",
+    },
+    heart: {
+      optionName: "heart",
+      shortenOptionName: "ht",
+      description: "need a heart? 🩷",
+    },
+  }
+);
+
+helloHelpCli(helloHelp);
 ```
