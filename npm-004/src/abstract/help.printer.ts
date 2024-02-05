@@ -1,4 +1,4 @@
-import { COLOR, colorType } from "../constant/color";
+import { COLORS, colorType } from "../constant/color";
 import { Options } from "./option.interface";
 
 export class HelloHelp {
@@ -11,7 +11,7 @@ export class HelloHelp {
     private titleColor: colorType = "blue"
   ) {
     this.primaryColor =
-      COLOR[this.titleColor.toLowerCase() as keyof typeof COLOR];
+      COLORS[this.titleColor.toLowerCase() as keyof typeof COLORS];
   }
 
   stdout() {
@@ -22,7 +22,7 @@ export class HelloHelp {
   }
 
   colorPrimary(text: string): string {
-    return `${this.primaryColor}${text}${COLOR["reset"]}`;
+    return `${this.primaryColor}${text}${COLORS["reset"]}`;
   }
 
   _getIntroduceStr(): string {
@@ -31,7 +31,7 @@ ${this.colorPrimary(this.project)} ${
       this.introduce ? "\n" + this.introduce : ""
     }
 
-${COLOR["black"]}--help, -h${COLOR["reset"]}`;
+${COLORS["black"]}--help, -h${COLORS["reset"]}`;
   }
 
   _getHelpStr() {

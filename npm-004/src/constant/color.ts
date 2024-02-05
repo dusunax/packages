@@ -1,4 +1,4 @@
-export const COLOR = {
+export const COLORS = {
   reset: "\x1b[0m",
   black: "\x1b[30m",
   red: "\x1b[31m",
@@ -17,4 +17,4 @@ export const COLOR = {
   brightWhite: "\x1b[97m",
 };
 
-export type colorType = keyof typeof COLOR;
+export type colorType = keyof typeof COLORS;

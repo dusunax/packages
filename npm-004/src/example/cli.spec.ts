@@ -15,5 +15,6 @@ describe("cli", () => {
     const result = helloHelpCli;
 
     expect(result).not.toBeNull();
+    expect(result).toMatchSnapshot();
   });
 });
