@@ -8,6 +8,7 @@
 | 002 | [hello-ascii](https://www.npmjs.com/package/hello-ascii)             | [![npm version](https://img.shields.io/npm/v/hello-ascii.svg?style=square)](https://www.npmjs.org/package/hello-ascii)             | 🔡  | 240124 |
 | 003 | [hello-random-name](https://www.npmjs.com/package/hello-random-name) | [![npm version](https://img.shields.io/npm/v/hello-random-name.svg?style=square)](https://www.npmjs.org/package/hello-random-name) | 💃  | 240130 |
 | 004 | [hello-help](https://www.npmjs.com/package/hello-help)               | [![npm version](https://img.shields.io/npm/v/hello-help.svg?style=square)](https://www.npmjs.org/package/hello-help)               | 🦄  | 240204 |
+| 005 | [hello-md-gen](https://www.npmjs.com/package/hello-md-gen)               | [![npm version](https://img.shields.io/npm/v/hello-md-gen.svg?style=square)](https://www.npmjs.org/package/hello-md-gen)               | 📠  | 240401 |
 
 ### [package-001] 🐣 Hello Emoji 🐣
 
@@ -61,4 +62,23 @@ const helloHelp = new HelloHelp(
 );
 
 helloHelpCli(helloHelp);
+```
+
+### [package-005] 📠 Hello MD Gen 📄
+
+- create `yyyy-mm-dd.md` file at `/docs/your-name/` with `src/template/markdown.md`
+
+```
+# CLI
+$ npx hello-md-gen
+
+# arguments
+--username dusunax
+--title "Title Turtle"
+
+# CLI messages
+// 🚫 Please enter your name
+// ✅ Created 2024-04-01.md
+// ✅ Configuration saved
+// 🚫 "docs/dusunax/2024-04-01.md" already exists 😅
 ```
