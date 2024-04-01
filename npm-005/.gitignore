@@ -1,5 +1,6 @@
 /coverage
 /docs
+config.json
 
 # Logs
 logs
