@@ -12,7 +12,7 @@ boilerplate from [modern-npm-package](https://github.com/snyk-snippets/modern-np
 📠 Hello MD Gen 📄
 
 - currently using `template/markdown.md` for the md generator
-- it generates the following markup for TIL format at `/docs/your-name/` path
+- it generates the following markdown for TIL format at `/docs/your-name/` path
 
 ```markdown
 # TIL: {{dateString}} // yyyy-mm-dd
@@ -22,7 +22,7 @@ boilerplate from [modern-npm-package](https://github.com/snyk-snippets/modern-np
 ## {{title}}, {{username}}
 ```
 
-- use command line to generate the markup file
+- use command line to generate the markdown file
 - need to set up the directory first, by command line `--username` arguments
 - you can set up the title also.
 
