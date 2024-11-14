@@ -103,4 +103,5 @@ COLOR_CODES = {
 
 ### Test Coverage
 
-![image](https://github.com/user-attachments/assets/c6472cc0-2b67-41c6-8a46-90487968ff8a)
+<img width="500px" src="https://github.com/user-attachments/assets/c6472cc0-2b67-41c6-8a46-90487968ff8a"/>
+
