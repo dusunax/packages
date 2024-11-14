@@ -100,3 +100,7 @@ COLOR_CODES = {
   reset: "\x1b[0m",
 } as const;
 ```
+
+### Test Coverage
+
+![image](https://github.com/user-attachments/assets/c6472cc0-2b67-41c6-8a46-90487968ff8a)
