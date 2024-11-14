@@ -9,6 +9,7 @@
 | 003 | [hello-random-name](https://www.npmjs.com/package/hello-random-name) | [![npm version](https://img.shields.io/npm/v/hello-random-name.svg?style=square)](https://www.npmjs.org/package/hello-random-name) | 💃  | 240130 |
 | 004 | [hello-help](https://www.npmjs.com/package/hello-help)               | [![npm version](https://img.shields.io/npm/v/hello-help.svg?style=square)](https://www.npmjs.org/package/hello-help)               | 🦄  | 240204 |
 | 005 | [hello-md-gen](https://www.npmjs.com/package/hello-md-gen)               | [![npm version](https://img.shields.io/npm/v/hello-md-gen.svg?style=square)](https://www.npmjs.org/package/hello-md-gen)               | 📠  | 240401 |
+| 007 | [colored-status-code](https://www.npmjs.com/package/colored-status-code)               | [![npm version](https://img.shields.io/npm/v/colored-status-code.svg?style=square)](https://www.npmjs.org/package/colored-status-code)               | 🎨  | 241114 |
 
 ### [package-001] 🐣 Hello Emoji 🐣
 
@@ -82,3 +83,10 @@ $ npx hello-md-gen
 // ✅ Configuration saved
 // 🚫 "docs/dusunax/2024-04-01.md" already exists 😅
 ```
+
+### [package-007] 🎨 Colored Status Code 🔢
+
+- Color your HTTP status code in the console, terminal, etc.
+- Improve the readability of your log.
+
+![image](https://github.com/user-attachments/assets/cbb31574-47f7-48e7-b852-768a10727425)
