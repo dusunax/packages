@@ -1,6 +1,5 @@
 # Color Weaver
 
-
 > [!NOTE]
 >
 > - Help you to make colorful UI.
@@ -55,6 +54,8 @@ console.log(colorWeaver.getTextColor("#FFFFFF")); // #222222
 ```
 
 ## Examples
+
+![image](https://github.com/user-attachments/assets/7690bcfe-5c01-4650-b741-16d03fcd8b99)
 
 ### Javascript
 ```js
