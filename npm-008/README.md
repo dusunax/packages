@@ -84,3 +84,13 @@ TagElement.style.color = colorWeaver.getTextColor(backgroundColor);
   );
 })}
 ```
+
+### React & TailwindCSS
+```tsx
+const colorWeaver = new ColorWeaver({
+  lightTextColor: "text-grey-800",
+  darkTextColor: "text-white",
+});
+...
+className={`flex items-center justify-center rounded-xl px-2 py-[2px] ${colorWeaver.getTextColor(concept.color)}`}
+```
