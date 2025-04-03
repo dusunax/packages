@@ -1,0 +1,61 @@
+{
+  "name": "react-multi-touch",
+  "version": "1.0.28",
+  "type": "module",
+  "description": "A React component for handling touch gestures including drag, scale, and rotate",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build:esbuild": "node build.mjs",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build": "npm run build:esbuild && npm run build:types",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish:npm": "npm run build && npm publish",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [
+    "react",
+    "touch",
+    "gesture",
+    "drag",
+    "scale",
+    "rotate",
+    "mobile"
+  ],
+  "author": "dusunax",
+  "license": "MIT",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.6",
+    "@storybook/addon-essentials": "^8.6.11",
+    "@storybook/addon-onboarding": "^8.6.11",
+    "@storybook/addon-styling-webpack": "^1.0.1",
+    "@storybook/blocks": "^8.6.11",
+    "@storybook/experimental-addon-test": "^8.6.11",
+    "@storybook/react": "^8.6.11",
+    "@storybook/react-vite": "^8.6.11",
+    "@storybook/test": "^8.6.11",
+    "@tailwindcss/cli": "^4.1.1",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "@vitest/browser": "^3.1.1",
+    "@vitest/coverage-v8": "^3.1.1",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.1",
+    "esbuild-node-externals": "^1.18.0",
+    "esbuild-plugin-postcss2": "^0.1.2",
+    "playwright": "^1.51.1",
+    "postcss": "^8.5.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "storybook": "^8.6.11",
+    "tailwindcss": "^4.0.17",
+    "typescript": "^5.8.2",
+    "vitest": "^3.1.1"
+  }
+}
