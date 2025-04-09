@@ -1,5 +1,9 @@
 # React Multi Touch
 
+![GitHub](https://img.shields.io/github/license/dusunax/packages) [![npm version](https://img.shields.io/npm/v/react-multi-touch.svg?style=square)](https://www.npmjs.org/package/react-multi-touch)
+[![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=react-multi-touch&query=$.install.pretty&label=install%20size&style=square)](https://packagephobia.now.sh/result?p=react-multi-touch)
+[![npm downloads](https://img.shields.io/npm/dm/react-multi-touch.svg?style=square)](https://npm-stat.com/charts.html?package=react-multi-touch)
+
 > [!NOTE]
 > - This package need to be used in touch devices.
 
