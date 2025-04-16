@@ -1,10 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { createContext, useContext, useEffect, useState } from "react";
-import {
-  ROTATION_SIDES,
-  HANDLE_POSITIONS,
-} from "@constants/constant";
+import { ROTATION_SIDES, HANDLE_POSITIONS } from "@constants/constant";
 import useTouchable, {
   UseTouchableProps,
   UseTouchableReturns,
@@ -27,6 +24,7 @@ const Touchable = (props: TouchableProps) => {
     touchHandlers,
     contextValue,
     isTouching,
+    isSupported,
     toggleActionMode,
     actionModes,
     resetToInitialState,
@@ -46,14 +44,15 @@ const Touchable = (props: TouchableProps) => {
         className={`absolute touchable__container ${className} ${
           !size.width || !size.height ? "invisible" : ""
         } ${isTouching ? "touching" : ""}
-        ${isTouching && handleMode === "touching" ? "z-100" : ""}`}
+        ${isTouching && handleMode === "touching" ? "z-100" : ""} ${
+          !isSupported ? "unsupported" : ""
+        }`}
         id={id}
         ref={touchableRef}
         data-current-top="top"
         {...touchHandlers}
       >
         {children}
-        <div className="absolute log bg-red-500 !h-auto text-xs"></div>
       </div>
       <div style={{ ...size }} className="touchable__relative-size" />
     </TouchableContext.Provider>
@@ -78,9 +77,7 @@ const Handles = ({ className = "" }: { className?: string }) => {
         />
       ))}
       <div
-        className={`absolute w-[calc(100%-8px)] h-[calc(100%-8px)] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 box-content border border-dotted ${
-          "border-gray-600"
-        } -z-1`}
+        className={`absolute w-[calc(100%-8px)] h-[calc(100%-8px)] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 box-content border border-dotted border-gray-600 -z-1`}
       ></div>
     </div>
   );
@@ -109,9 +106,7 @@ const CornerHandle = ({ sideId }: { sideId: keyof typeof ROTATION_SIDES }) => {
           className={`pointer-events-none ${cornerStyle}`}
         />
       ) : (
-        <div
-          className={`bg-white border rounded-xs border-gray-600 w-2 h-2 pointer-events-none`}
-        />
+        <div className="bg-white border rounded-xs border-gray-600 w-2 h-2 pointer-events-none" />
       )}
     </div>
   );
@@ -234,8 +229,7 @@ const ControlButton = ({
       onPointerDown={onPointerDown}
       style={{ width: size, height: size }}
     >
-      o
-      {/* <img src={src} alt={alt} width={size} height={size} /> */}
+      <img src={src} alt={alt} width={size} height={size} />
     </button>
   );
 };
